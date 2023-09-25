@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/image_log"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:src="@drawable/dp"
+        android:padding="@dimen/_7sdp"
+        android:translationX="@dimen/_21sdp"
+        />
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Motivate"
+        android:layout_below="@+id/image_log"
+
+        android:textSize="@dimen/_18ssp"
+        android:textFontWeight="600"
+        android:textColor="#474646"
+        android:translationX="@dimen/_21sdp"
+        />
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="motivate@gmail.com"
+        android:layout_below="@+id/name"
+        android:layout_marginStart="@dimen/_5sdp"
+        android:textSize="@dimen/_14ssp"
+
+        android:textColor="#A09B9B"
+        android:translationX="@dimen/_21sdp"
+        />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_1sdp"
+        android:layout_below="@id/email"
+        android:layout_marginTop="5dp"
+        android:background="#9B9797"
+        android:translationX="@dimen/_21sdp"
+        />
+</RelativeLayout>

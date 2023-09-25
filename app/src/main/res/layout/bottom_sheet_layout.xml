@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/firstStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/p6"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student 1"
+            android:layout_marginTop="17dp"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginStart="@dimen/_10sdp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/SecondStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:layout_below="@+id/firstStudent"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/p4"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student 2"
+            android:layout_marginTop="17dp"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginStart="@dimen/_10sdp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/thirdStudent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/_10sdp"
+        android:layout_below="@+id/SecondStudent"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            android:src="@drawable/p1"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student 3"
+            android:layout_marginTop="17dp"
+            android:textSize="@dimen/_16ssp"
+            android:layout_marginStart="@dimen/_10sdp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

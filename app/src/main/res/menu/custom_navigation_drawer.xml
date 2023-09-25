@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item android:id="@+id/message"
+        android:title="Message"
+        android:icon="@drawable/baseline_message_24"
+        />
+    <item
+        android:id="@+id/sync"
+        android:title="Sync"
+        android:icon="@drawable/baseline_sync_24"
+        />
+    <item
+        android:title="Profile"
+        >
+        <menu>
+            <item
+                android:id="@+id/logIn"
+                android:title="Login"
+                android:icon="@drawable/baseline_login_24"
+                />
+        </menu>
+    </item>
+    <item
+        android:title="Communicate"
+        >
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:title="Share"
+                android:icon="@drawable/baseline_share_24"
+                />
+            <item
+                android:id="@+id/rate"
+                android:title="Rating Us"
+                android:icon="@drawable/baseline_rate_review_24"
+                />
+        </menu>
+    </item>
+</menu>

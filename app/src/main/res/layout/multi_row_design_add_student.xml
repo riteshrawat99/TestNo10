@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/_10sdp"
+      >
+      <de.hdodenhof.circleimageview.CircleImageView
+          android:id="@+id/profile"
+          android:layout_width="@dimen/_50sdp"
+          android:layout_height="@dimen/_50sdp"
+
+          />
+      <TextView
+          android:id="@+id/get_name_sec"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_toRightOf="@+id/profile"
+          android:layout_marginStart="10dp"
+          android:textSize="17sp"
+          android:layout_marginTop="10dp"
+          android:textFontWeight="400"
+          />
+      <TextView
+          android:id="@+id/get_phone"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+
+          android:layout_below="@+id/get_name_sec"
+          android:layout_toRightOf="@id/profile"
+          android:layout_marginEnd="@dimen/_5sdp"
+          android:textSize="@dimen/_12sdp"
+          />
+      <TextView
+          android:id="@+id/get_email"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_below="@+id/get_name_sec"
+          android:layout_toRightOf="@id/get_phone"
+          android:textSize="@dimen/_12ssp"
+          />
+  </RelativeLayout>
+</LinearLayout>

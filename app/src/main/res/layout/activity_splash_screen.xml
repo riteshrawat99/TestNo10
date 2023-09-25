@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashScreen">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/splace_logo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/splash_logo"
+        android:layout_centerInParent="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Space X"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:translationY="-300dp"
+        android:textSize="@dimen/_15ssp"
+        android:fontFamily="monospace"
+        android:textFontWeight="550"
+        android:textColor="#F44C85"
+        />
+
+</RelativeLayout>
